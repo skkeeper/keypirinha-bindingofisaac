@@ -5,7 +5,8 @@ This is BindingOfIsaac, a plugin for the
 
 This plugins helps you search item description and effects for the Binding of Isaac Afterbirth+ videogame (by Edmund McMillen).
 
-![Usage](https://imgur.com/a/vynKj "Usage")
+
+![](https://i.imgur.com/JKDFQJu.gif)
 
 
 ## Download
