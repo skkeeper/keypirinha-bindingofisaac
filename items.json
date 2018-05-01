@@ -145,7 +145,7 @@
       "pickup": "\"DMG up\"",
       "effects": [
         "+1.0 Damage Up.",
-        "+50% / 1.5 times Damage Multiplier if you also have Book ofBelial (Does not stack with Magic Mushroom or Cricket's Headmultipliers)",
+        "+50% / 1.5 times Damage Multiplier if you also have Book of Belial (Does not stack with Magic Mushroom or Cricket's Head multipliers)",
         "This item can only be found in the item room pool, unlike the original game where it was also a god item"
       ],
       "itemType": "Passive",
@@ -240,7 +240,7 @@
       "pickup": "\"Extra life\"",
       "effects": [
         "Gives the player an extra life",
-        "When revived, the green mushroom that follows Isaac willdisappear and he will respawn with the same amount of red heartcontainers at full health.",
+        "When revived, the green mushroom that follows Isaac will disappear and he will respawn with the same amount of red heart containers at full health.",
         "Resurrection takes place before all other items which give you an extra live, except Guppy's Collar."
       ],
       "itemType": "Passive",
@@ -263,11 +263,11 @@
       "effects": [
         "+1 Health Up.",
         "+0.3 Damage Up.",
-        "+50% / 1.5 times Damage Multiplier (Does not stack with themultipliers from Cricket's Head / Blood of The Martyr + Book of Belial).",
+        "+50% / 1.5 times Damage Multiplier (Does not stack with the multipliers from Cricket's Head / Blood of The Martyr + Book of Belial).",
         "+5.25 Range Up.",
         "+0.3 Speed Up.",
         "+0.5 Tear Height.",
-        "Isaac grows in size.",
+        "Increases the size of your player sprite, but doesn't increase the hitbox.",
         "Similar to the original game, the Magic Mushroom does not give a tears up despite saying 'All Stats Up'.",
         "Fully restores all red heart containers.",
         "Can be dropped when exploding mushrooms in the Caves/Catacombs."
@@ -786,7 +786,7 @@
       "pickup": "\"Temporary DMG up\"",
       "effects": [
         "Upon use, gives +2 damage up which lasts for the current room.",
-        "+50% / 1.5 times Damage Multiplier if you also have Blood ofthe Martyr (Does not stack with Magic Mushroom or Cricket's Headmultipliers).",
+        "+50% / 1.5 times Damage Multiplier if you also have Blood of the Martyr (Does not stack with Magic Mushroom or Cricket's Head multipliers).",
         "Guaranteed Devil or Angel Room if you have it when you kill the boss on all floors where it's possible to get one.",
         "Judas starts with this item."
       ],
@@ -1068,7 +1068,7 @@
       "title": "Doctor's Remote",
       "pickup": "\"Reusable air strike\"",
       "effects": [
-        "A target is placed on the floor which can be controlled. After a few seconds a huge missile hits the target and deals 70 damage toanything nearby.",
+        "A target is placed on the floor which can be controlled. After a  few seconds a huge missile hits the target and deals 70 damage to anything nearby.",
         "The damage dealt from this item scales with your damage stat.",
         "Essentially a one-time more powerful use of the Epic Fetus item."
       ],
@@ -1114,7 +1114,7 @@
       "pickup": "\"BLLLARRRRGGG!\"",
       "effects": [
         "When used, fires a high damage laser in a straight line across the room in a similar way to Brimstone.",
-        "The laser deals damage equal to your tear damage * 4, at 7ticks per laser, meaning the maximum potential damage per laser is yourtear damage * 28.",
+        "The laser deals damage equal to your tear damage * 4, at 7 ticks per laser, meaning the maximum potential damage per laser is your tear damage * 28.",
         "Has a chance to drop from the Envy and Super Envy miniboss fights."
       ],
       "itemType": "Active",
@@ -1231,7 +1231,7 @@
       "effects": [
         "Reveals the entire map for every floor not including both secret room locations.",
         "Does not show the icons for any unknown rooms.",
-        "Can still help you to guess which direction the boss room is in,due to the fact that the Boss Room is usually in the room furthest awayfrom the first room."
+        "Can still help you to guess which direction the boss room is in, due to the fact that the Boss Room is usually in the room furthest away from the first room."
       ],
       "itemType": "Passive",
       "itemPool": "Shop, Beggar",
@@ -1256,7 +1256,7 @@
       "effects": [
         "Isaac has a random chance to fire another tear out the back of his head.",
         "The chance to fire the second tear can improve based on your luck stat and will always activate at +2 Luck.",
-        "Synergizes very well with a lot of items. If used withBrimstone you have a 100% chance to fire a laser out the back of yourhead."
+        "Synergizes very well with a lot of items. If used with Brimstone you have a 100% chance to fire a laser out the back of your head."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room, Challenge Room",
@@ -1277,7 +1277,7 @@
       "title": "Lemon Mishap",
       "pickup": "\"Oops...\"",
       "effects": [
-        "When used, drops a pool of 'lemonade' on the floor whichdamages any enemies that come into contact with it for 8 damage pertick."
+        "When used, drops a pool of 'lemonade' on the floor which damages any enemies that come into contact with it for 8 damage per tick."
       ],
       "itemType": "Active",
       "itemPool": "Item Room",
@@ -1566,7 +1566,7 @@
       "effects": [
         "+0.3 Speed Up",
         "Decreases range stat by -4.25 but increases your tear height by 1.5, increasing your actual tear range.",
-        "Causes Isaac to shrink in size.",
+        "Causes Isaac to shrink in size (including hitbox slightly).",
         "Can be dropped when exploding mushrooms in the environment that are usually found in the Caves/Catacombs and in secret rooms."
       ],
       "itemType": "Passive",
@@ -1849,7 +1849,8 @@
         "-0.18 Speed Down.",
         "+1 Soul Heart",
         "Gives you the ability to crush rocks by walking over them.",
-        "All the above effects are only active when the item is used."
+        "Allows Isaac to deal contact damage to enemies for the current room. Does not prevent Isaac from taking contact damage.",
+        "All the above effects are only active when the item is used for the current room."
       ],
       "itemType": "Active",
       "itemPool": "Devil Room",
@@ -2442,7 +2443,7 @@
       "title": "Pinking Shears",
       "pickup": "\"Cut and run\"",
       "effects": [
-        "Cuts Isaac's head from his body for the current room, allowinghim to fly and leaving the decapitated body to run around attackingenemies for 5.5 damage per tick."
+        "Cuts Isaac's head from his body for the current room, allowing him to fly and leaving the decapitated body to run around attacking enemies for 5.5 damage per tick."
       ],
       "itemType": "Active",
       "itemPool": "Item Room",
@@ -2497,7 +2498,7 @@
       "effects": [
         "+0.04 Damage Up for every coin you currently have.",
         "At 99 coins this item gives +3.96 Damage Up.",
-        "+0.04 per coin is the amount added before the damage formula is calculated, as this is the only way to show a consistent amount of damage given.You may see more or less than this on the Found HUD overlay, howeverthis number varies based on your other damage increasing items"
+        "+0.04 per coin is the amount added before the damage formula is calculated,  as this is the only way to show a consistent amount of damage given. You may see more or less than this on the Found HUD overlay, however this number varies based on your other damage increasing items"
       ],
       "itemType": "Passive",
       "itemPool": "Item Room",
@@ -2708,9 +2709,9 @@
       "title": "Brimstone",
       "pickup": "\"Blood laser barrage\"",
       "effects": [
-        "Tears are replaced with the ability to charge and fire apowerful laser that travels in a straight line across the room, dealing a lot of damage (damage * 13) to any enemies it comes into contact with.",
+        "Tears are replaced with the ability to charge and fire a powerful laser that travels in a straight line across the room, dealing a  lot of damage (damage * 13) to any enemies it comes into contact with.",
         "Does not directly affect your Damage stat but hits enemies 13 times per charge, spawning Guppy flies with every hit.",
-        "Synergizes very well with a lot of items including Tammy'sHead, Tiny Planet, Inner Eye (Triple Shot), Mutant Spider (Quad Shot)and many others.",
+        "Synergizes very well with a lot of items including Tammy's Head, Tiny Planet, Inner Eye (Triple Shot), Mutant Spider (Quad Shot) and many others.",
         "An item only found in the devil room pool (Note: The Fallen boss pulls items from the Devil Room Pool)"
       ],
       "itemType": "Passive, Tear Modifier",
@@ -2798,7 +2799,7 @@
       "pickup": "\"Curse up\"",
       "effects": [
         "When you only have half a heart remaining or less, you enter a curse state which adds +1.5 damage and +0.3 speed.",
-        "When playing as Eve, this item activates with one FULL heartremaining or less AND also removes her 0.75 damage multiplier, raisingit up to 1.0.",
+        "When playing as Eve, this item activates with one FULL heart remaining or less AND also removes her 0.75 damage multiplier, raising it up to 1.0.",
         "The effect is permanently active for characters with no red hearts (e.g. Blue Baby, The Lost).",
         "One of Eve's starting items."
       ],
@@ -3070,7 +3071,7 @@
       "title": "Guppy's Tail",
       "pickup": "\"Cursed?\"",
       "effects": [
-        "When picked up, greatly increases your chance of finding chests at the end of a room, while also reducing your chance to findconsumables such as keys and bombs.",
+        "When picked up, greatly increases your chance of finding chests  at the end of a room, while also reducing your chance to find consumables such as keys and bombs.",
         "This is one of the items which allows you to transform into Guppy."
       ],
       "itemType": "Passive",
@@ -3202,7 +3203,7 @@
       "effects": [
         "All of Isaac's bombs now leave a poison effect on any enemies within the blast radius.",
         "+5 Bombs.",
-        "As well as dealing the standard 60 damage for a bomb, it willapply a Damage over Time effect that does 4 or 6 damage per tick.",
+        "As well as dealing the standard 60 damage for a bomb, it will apply a Damage over Time effect that does 4 or 6 damage per tick.",
         "Has a chance to drop from the Super Sloth miniboss fight."
       ],
       "itemType": "Passive",
@@ -3301,7 +3302,7 @@
       "title": "Bum Friend",
       "pickup": "\"He's Greedy\"",
       "effects": [
-        "A beggar who follows Isaac around and automatically picks upnearby coins. After picking up a coin he has a random chance to droppickups, including hearts, keys, bombs, coins, pills, cards or trinkets."
+        "A beggar who follows Isaac around and automatically picks up nearby coins. After picking up a coin he has a random chance to drop pickups, including hearts, keys, bombs, coins, pills, cards or trinkets."
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "Item Room",
@@ -3421,7 +3422,7 @@
       "title": "Ipecac",
       "pickup": "\"Explosive shots\"",
       "effects": [
-        "Isaac's tears are replaced with explosive poison bombs, whichwill arc upwards and explode on contact with the floor, dealing hugedamage and leaving a poison effect on enemies in range.",
+        "Isaac's tears are replaced with explosive poison bombs, which will arc upwards and explode on contact with the floor, dealing huge damage and leaving a poison effect on enemies in range.",
         "Ipecac shots are given a flat +40 Damage on top of the normal 3.5 base damage.",
         "Tears Down (Tear delay * 2 + 10).",
         "+13.0 Tear Height.",
@@ -3605,8 +3606,8 @@
         "Each time you take damage, you gain a damage up which lasts for the rest of the floor and turn a darker red colour each time.",
         "After taking 6 hits Bloody Lust doesn't give you any further damage increases.",
         "Damage given for each hit increases as follows: +0.5, +0.5, +0.5, +33%, +33%, +33%.",
-        "The maximum effect is (damage + 1.5) * 2, resulting in more thandouble your original damage and stacking with other damage increasingitems.",
-        "Bloody lust works differently in Rebirth compared to Wrath ofthe Lamb - Damage is given for taking damage and is persistent for theentire floor."
+        "The maximum effect is (damage + 1.5) * 2, resulting in more than double your original damage and stacking with other damage increasing items.",
+        "Bloody lust works differently in Rebirth compared to Wrath of the Lamb - Damage is given for taking damage and is persistent for the entire floor."
       ],
       "itemType": "Passive",
       "itemPool": "Item Room",
@@ -3671,7 +3672,7 @@
       "title": "Crack The Sky",
       "pickup": "\"Holy white death\"",
       "effects": [
-        "Creates 5 beams of light from the sky that deal damage equal to your tear damage + 20 to any enemies which come into contact with them.",
+        "Creates 5 beams of light from the sky that deal damage equal to  your tear damage + 20 to any enemies which come into contact with them.",
         "The beams now have improved targetting and will attempt to spawn on top of enemies where possible."
       ],
       "itemType": "Active",
@@ -3857,7 +3858,7 @@
       "effects": [
         "Tears now become missiles which deal huge damage to anything nearby.",
         "Missiles damage = damage * 20.",
-        "This item places a controllable red target on the ground whichwill cause a missile to fall from the sky and hit it after a shortperiod of time."
+        "This item places a controllable red target on the ground which will cause a missile to fall from the sky and hit it after a short period of time."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room",
@@ -4063,7 +4064,7 @@
       "title": "Portable Slot",
       "pickup": "\"Gamble 24/7\"",
       "effects": [
-        "Using the portable slot takes a coin and has a chance to give a pickup - Exactly the same as how the normal slot machines work."
+        "Using the portable slot takes a coin and has a chance to give a  pickup - Exactly the same as how the normal slot machines work."
       ],
       "itemType": "Active",
       "itemPool": "Shop, Beggar",
@@ -4085,7 +4086,7 @@
       "title": "Holy Water",
       "pickup": "\"Splash!\"",
       "effects": [
-        "When Isaac takes damage, the bottle breaks and leaves a pool on the floor which deals 8 damage per tick to enemies which walk over it."
+        "When Isaac takes damage, the bottle breaks and leaves a pool on  the floor which deals 8 damage per tick to enemies which walk over it."
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "Item Room, Angel Room",
@@ -4158,9 +4159,9 @@
       "pickup": "\"Flight + holy death\"",
       "effects": [
         "Allows Isaac to fly while the White Pony is held.",
-        "While held, sets your speed stat to 1.5 if it isn't already thathigh. If your speed stat is already higher then that value is stillused.",
-        "Upon use, Isaac charges in the direction the pony is facing,becoming invulnerable during the charge and damaging enemies while alsocasting the effect of Crack The Sky.",
-        "The charge of the spacebar attack deals 40 damage on contactwith enemies and the beams deal damage equal to your tear damage + 20.",
+        "While held, sets your speed stat to 1.5 if it isn't already that high. If your speed stat is already higher then that value is still used.",
+        "Upon use, Isaac charges in the direction the pony is facing, becoming invulnerable during the charge and damaging enemies while also casting the effect of Crack The Sky.",
+        "The charge of the spacebar attack deals 40 damage on contact with enemies and the beams deal damage equal to your tear damage + 20.",
         "Drops from the Conquest boss fight."
       ],
       "itemType": "Active",
@@ -4402,7 +4403,7 @@
       "pickup": "\"Rainbow tears\"",
       "effects": [
         "Random tear effect for every room.",
-        "Possible tear effects: Fire Mind, Spoon Bender, My Reflection,Ouija Board, 20/20, Inner Eye, Iron Bar, Death's Touch, Tough Love,Proptosis, Number One, Mom's Contacts or Dark Matter."
+        "Possible tear effects: Fire Mind, Spoon Bender, My Reflection, Ouija Board, 20/20, Inner Eye, Iron Bar, Death's Touch, Tough Love, Proptosis, Number One, Mom's Contacts or Dark Matter."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room",
@@ -4769,9 +4770,9 @@
       "title": "Ball of Bandages",
       "pickup": "\"Gotta lick em all\"",
       "effects": [
-        "Gives Isaac an orbital ball of bandages that deals 7 contactdamage per tick. Unlike the Cube of Meat, it does not block enemy shots.",
-        "Collecting a second Ball of Bandages in the run turns theorbital into a pink head that shoots tears that deal 7 damage each andhave a chance to charm enemies.",
-        "Getting a third Ball of Bandages will transform the head intobandage girl which will chase enemies dealing 3.5 contact damage pertick while firing charm tears.",
+        "Gives Isaac an orbital ball of bandages that deals 7 contact damage per tick. Unlike the Cube of Meat, it does not block enemy shots.",
+        "Collecting a second Ball of Bandages in the run turns the orbital into a pink head that shoots tears that deal 7 damage each and have a chance to charm enemies.",
+        "Getting a third Ball of Bandages will transform the head into bandage girl which will chase enemies dealing 3.5 contact damage per tick while firing charm tears.",
         "A fourth Ball of Bandages will make the Bandage Girl bigger and stronger, making her deal 5.5 damage per tick instead.",
         "Any further Ball of Bandages will repeat the cycle.",
         "Charmed enemies will prioritize attacking other enemies in the room, otherwise they will still attack Isaac."
@@ -5182,7 +5183,7 @@
         "When getting hit, this item has a chance to drop a soul heart or black heart.",
         "When depleted, Black Hearts deal 40 damage to the entire room, in a Necronomicon style effect.",
         "The chance to spawn a heart is affected by your luck stat and at +22 Luck it will activate 50% of the time.",
-        "Due to a bug, if you have more than 22 luck, Gimpy won't dropany Soul or Black hearts (This bug has been fixed in Afterbirth+).",
+        "Due to a bug, if you have more than 22 luck, Gimpy won't drop any Soul or Black hearts (This bug has been fixed in Afterbirth+).",
         "Enemies have a chance to drop half a heart when killed."
       ],
       "itemType": "Passive",
@@ -5380,7 +5381,7 @@
         "+7.0 Tear Height.",
         "Tears now revolve around Isaac's Body at a fixed distance until they hit the ground.",
         "Aiming in the opposite direction is often better due to how the tears circle around Isaac.",
-        "Causes a lot of great synergies with items such as Lump of Coal,Brimstone, Rubber Cement, Technology and most of the worm trinkets."
+        "Causes a lot of great synergies with items such as Lump of Coal, Brimstone, Rubber Cement, Technology and most of the worm trinkets."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room",
@@ -5515,7 +5516,7 @@
       "pickup": "\"All stats up! ... and then shuffled\"",
       "effects": [
         "When picked up, this item will increase or decrease each one of your stats by a random amount.",
-        "The flavour text for this item is slightly misleading, it isnot an all stats up, however will average out as a slight increaseoverall.",
+        "The flavour text for this item is slightly misleading, it is not an all stats up, however will average out as a slight increase overall.",
         "All 6 stats are affected by this item, including shot speed and luck.",
         "At least one stat is reduced but no more than 3 stats are reduced.",
         "Can kill Blue Baby if it removes health, but not other characters (This exception has been fixed for Afterbirth+)."
@@ -5638,7 +5639,7 @@
       "pickup": "\"Double shot\"",
       "effects": [
         "Isaac now shoots from both eyes at the same time.",
-        "Unlike the Inner Eye and Mutant Spider items, this double shotitem does not give a tears down, effectively giving you double damageper second potential."
+        "Unlike the Inner Eye and Mutant Spider items, this double shot item does not give a tears down, effectively giving you double damage per second potential."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room",
@@ -5833,7 +5834,7 @@
       "effects": [
         "+1.0 Damage Up (Left eye only).",
         "+5 Range Up (Left eye only).",
-        "The above stats only apply to tears fired from Isaac's left eye or with a 50% chance if you have an item which causes you to fire from a single source only."
+        "The above stats only apply to tears fired from Isaac's left eye  or with a 50% chance if you have an item which causes you to fire from a  single source only."
       ],
       "itemType": "Passive",
       "itemPool": "Boss Room",
@@ -5920,7 +5921,7 @@
       "title": "Missing No.",
       "pickup": "\"Syntax error\"",
       "effects": [
-        "At the start of each floor this item rerolls all your currentitems, giving you a new item to over-ride each of the one you had.",
+        "At the start of each floor this item rerolls all your current items, giving you a new item to over-ride each of the one you had.",
         "A reference to the infamous 'Missingno' glitch from Pokemon."
       ],
       "itemType": "Passive",
@@ -5995,7 +5996,7 @@
         "Gives Isaac high damage tears with a short range.",
         "Tear size and damage falls off very fast with this item, the further the tear travels the less damage it does.",
         "Tear damage starts at double (+100%) and decreases over range to roughly (+30%).",
-        "Despite the very small tears visually, Proptosis is always adamage up at any range for tears. However with lasers such as Brimstonethis point is no longer true."
+        "Despite the very small tears visually, Proptosis is always a damage up at any range for tears. However with lasers such as Brimstone this point is no longer true."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room",
@@ -6016,7 +6017,7 @@
       "pickup": "\"Evil up + your enemies will pay\"",
       "effects": [
         "+1 Black Heart.",
-        "Upon taking damage, if the total sum of Isaac's red hearts +soul hearts is under one and a half hearts, the necronomicon effect will activate, dealing 40 damage to the entire room.",
+        "Upon taking damage, if the total sum of Isaac's red hearts + soul hearts is under one and a half hearts, the necronomicon effect will  activate, dealing 40 damage to the entire room.",
         "When depleted, Black Hearts deal 40 damage to the entire room, in a Necronomicon style effect."
       ],
       "itemType": "Passive",
@@ -6043,7 +6044,7 @@
       "pickup": "\"Revenge fly\"",
       "effects": [
         "A yellow orbital fly that will block shots and when Isaac gets hit, will seek out the nearest enemy and attack it.",
-        "If the fly is in its attacking state and there are no longerany enemies in range, it will return to Isaac and go back to being adefensive orbital.",
+        "If the fly is in its attacking state and there are no longer any enemies in range, it will return to Isaac and go back to being a defensive orbital.",
         "Picking up this item as well as 2 other fly-type items will allow you to transform into Lord of the Flies."
       ],
       "itemType": "Passive, Familiar",
@@ -6067,7 +6068,7 @@
       "pickup": "\"Immortal friend\"",
       "effects": [
         "A familiar that follows Isaac and blocks any shots that hit it.",
-        "If a projectile is blocked by Dry Baby, he has a high chance to activate the Necronomicon effect, dealing 40 damage to the entire room.",
+        "If a projectile is blocked by Dry Baby, he has a high chance to  activate the Necronomicon effect, dealing 40 damage to the entire room.",
         "The chance to activate the effect is not changed by your Luck stat.",
         "Can drop while destroying skulls in the Depths and Necropolis floors."
       ],
@@ -6261,7 +6262,7 @@
       "title": "Bob's Brain",
       "pickup": "\"Explosive thoughts\"",
       "effects": [
-        "A green brain that launches in the direction you are firingyour tears and will explode on contact with enemies, dealing damage andpoisoning anything in the blast radius.",
+        "A green brain that launches in the direction you are firing your tears and will explode on contact with enemies, dealing damage and poisoning anything in the blast radius.",
         "Bob's Brain deals 60 damage and applies a poison damage over time effect, which will scale with damage upgrades.",
         "Regenerates over time.",
         "Will hurt Isaac if he is in the blast radius."
@@ -6308,7 +6309,7 @@
       "title": "Lil' Brimstone",
       "pickup": "\"Evil friend\"",
       "effects": [
-        "A familiar that follows Isaac and can fire up and chargebrimstone shots, exactly how the normal Brimstone item works but withless damage.",
+        "A familiar that follows Isaac and can fire up and charge brimstone shots, exactly how the normal Brimstone item works but with less damage.",
         "A fully charged laser deals 31.5 damage.",
         "A familiar found in the devil room."
       ],
@@ -6332,7 +6333,7 @@
       "title": "Isaac's Heart",
       "pickup": "\"Protect it\"",
       "effects": [
-        "Prevents Isaac from taking any damage, but instead summons afamiliar heart that follows you around. If the heart is hit, Isaac willtake damage.",
+        "Prevents Isaac from taking any damage, but instead summons a familiar heart that follows you around. If the heart is hit, Isaac will take damage.",
         "Sharp Plug becomes useless with this item, due to how damage is prevented on Isaac's body."
       ],
       "itemType": "Passive, Familiar",
@@ -6352,7 +6353,7 @@
       "title": "Lil' Haunt",
       "pickup": "\"Fear him\"",
       "effects": [
-        "A familiar ghost that follows Isaac around and chases enemiesclose-by, damaging them for 2 contact damage and causing a fear effect."
+        "A familiar ghost that follows Isaac around and chases enemies close-by, damaging them for 2 contact damage and causing a fear effect."
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "Item Room",
@@ -6370,7 +6371,7 @@
       "title": "Dark Bum",
       "pickup": "\"He wants to take your life\"",
       "effects": [
-        "A familiar beggar similar to Bum Friend that follows Isaac andcollects red hearts, giving Isaac soul hearts or spiders in return.",
+        "A familiar beggar similar to Bum Friend that follows Isaac and collects red hearts, giving Isaac soul hearts or spiders in return.",
         "Soul hearts are the most common payout with only a small chance to spawn friendly or hostile spiders.",
         "Dark Bum has a small chance to give a black heart instead of a soul heart.",
         "For every 1.5 red hearts he takes, he will give 1 heart/spider in return."
@@ -6404,7 +6405,7 @@
       "pickup": "\"Fat protector\"",
       "effects": [
         "A very large orbital that moves around Isaac very slowly, blocking shots and dealing 2 contact damage per tick.",
-        "Affects the speed of all other orbitals, slowing them down alot (NOTE: This effect does not happen until you get a new orbital after Big Fan).",
+        "Affects the speed of all other orbitals, slowing them down a lot (NOTE: This effect does not happen until you get a new orbital after  Big Fan).",
         "Does not count as one of your three standard orbitals, allowing you to have a total of 4.",
         "Picking up this item as well as 2 other fly-type items will allow you to transform into Lord of the Flies."
       ],
@@ -6501,7 +6502,7 @@
       "title": "D100",
       "pickup": "\"REEROLLLLL!\"",
       "effects": [
-        "When used, rerolls each item you currently own into anotheritem room pool item and any pedestal items and pickups in the room.",
+        "When used, rerolls each item you currently own into another item room pool item and any pedestal items and pickups in the room.",
         "Has the combined uses of the D4, D6 and D20."
       ],
       "itemType": "Active",
@@ -6527,7 +6528,7 @@
       "pickup": "\"Reroll into something else\"",
       "effects": [
         "When used, the D4 re-rolls each item you currently have into another random item from the item room pool.",
-        "Each time an item is generated by the D4, it is also removedfrom the pool. When the pool is empty, it will eventually re-roll allyour items into heart containers.",
+        "Each time an item is generated by the D4, it is also removed from the pool. When the pool is empty, it will eventually re-roll all your items into heart containers.",
         "Cannot remove Azazel's Brimstone laser."
       ],
       "itemType": "Active",
@@ -6599,7 +6600,7 @@
       "title": "Book of Secrets",
       "pickup": "\"??????\"",
       "effects": [
-        "When used, you have a chance of getting one of the threefollowing effects: Treasure Map (floor layout), Compass (map icons) orBlue Map (secret room locations)"
+        "When used, you have a chance of getting one of the three following effects: Treasure Map (floor layout), Compass (map icons) or Blue Map (secret room locations)"
       ],
       "itemType": "Active",
       "itemPool": "Item Room, Library, Secret Room",
@@ -6641,7 +6642,7 @@
       "title": "Red Candle",
       "pickup": "\"Flame on\"",
       "effects": [
-        "Allows you to fire a red flame infront of you, similar to theBlue Candle item, however the flame will stay for the current room.",
+        "Allows you to fire a red flame infront of you, similar to the Blue Candle item, however the flame will stay for the current room.",
         "Each flame deals 125 total damage.",
         "The flame will shrink in size when deals damage to something and eventually disappear."
       ],
@@ -6660,7 +6661,7 @@
       "title": "The Jar",
       "pickup": "\"Save your life\"",
       "effects": [
-        "Isaac can now pick up hearts while at full health, which willbe stored in the Jar and can be spawned again using the spacebar.",
+        "Isaac can now pick up hearts while at full health, which will be stored in the Jar and can be spawned again using the spacebar.",
         "Up to 4 hearts can be stored in The Jar.",
         "Soul hearts and black hearts cannot be stored.",
         "If used in a Black heart or Eternal heart super secret room, it will spawn the relevant heart."
@@ -6715,12 +6716,12 @@
         "library pool",
         "library room",
         "book room pool",
-        "devil\npool",
+        "devil pool",
         "devil room pool",
         "devil deal",
         "item room",
         "treasure room",
-        "item room\npool",
+        "item room pool",
         "the lost item pool",
         "pentagram",
         "star",
@@ -6741,7 +6742,7 @@
         "Maximum potential damage is 462 (20-21 ticks of 22 damage if the laser makes contact the whole duration)",
         "Laser damage does not scale with your damage stat.",
         "Has a chance to drop after you beat Krampus.",
-        "If you get close enough to an enemy that has a large hitbox,you can hit it with 2 of the laser beams, allowing you to deal a lotmore damage."
+        "If you get close enough to an enemy that has a large hitbox, you can hit it with 2 of the laser beams, allowing you to deal a lot more damage."
       ],
       "itemType": "Active",
       "itemPool": "None (Krampus only)",
@@ -6864,7 +6865,7 @@
         "When used, turns Isaac invincible and gains +0.28 speed for a 5 seconds.",
         "You cannot fire tears while the stump is active.",
         "Very similar to the My Little Unicorn item but does not deal contact damage.",
-        "When used with Mom's Knife, you can still deal contact damagebut will be unable to change the way the knife faces while the effect is active."
+        "When used with Mom's Knife, you can still deal contact damage but will be unable to change the way the knife faces while the effect is  active."
       ],
       "itemType": "Active",
       "itemPool": "Item Room",
@@ -6888,7 +6889,7 @@
       "effects": [
         "-0.3 Speed Down.",
         "While in a hostile room your speed raises at a rate of +0.065 per second.",
-        "When you hit a speed stat of 2.0, Isaac will gain the My Little Unicorn invincibility effect for a few seconds, increasing speed andallowing him to run into enemies to deal 40 contact damage per hit.",
+        "When you hit a speed stat of 2.0, Isaac will gain the My Little  Unicorn invincibility effect for a few seconds, increasing speed and allowing him to run into enemies to deal 40 contact damage per hit.",
         "The time it takes for the effect to activate becomes shorter with a higher base Speed stat.",
         "One of the twelve zodiac items available in the game."
       ],
@@ -6991,9 +6992,9 @@
       "title": "Virgo",
       "pickup": "\"You feel refreshed and protected\"",
       "effects": [
-        "A random chance when you take damage to get an invincibilityshield for a few seconds (Similar to the Celtic Cross effect but morelikely).",
-        "The chance to get an invincibility shield is affected by yourluck stat and at +10 Luck it will activate every time you get hit.",
-        "Converts all stat down pills into stat up pills. 'Bad Trip'turns into 'Balls of Steel' and 'Amnesia' turns into 'I can seeforever'.",
+        "A random chance when you take damage to get an invincibility shield for a few seconds (Similar to the Celtic Cross effect but more likely).",
+        "The chance to get an invincibility shield is affected by your luck stat and at +10 Luck it will activate every time you get hit.",
+        "Converts all stat down pills into stat up pills. 'Bad Trip' turns into 'Balls of Steel' and 'Amnesia' turns into 'I can see forever'.",
         "One of the twelve zodiac items available in the game."
       ],
       "itemType": "Passive",
@@ -7017,7 +7018,7 @@
       "effects": [
         "Gives you 6 keys, 6 bombs and 6 coins.",
         "Balances out your stats to bring the high and low stats closer to an average value.",
-        "All future stat upgrading items will now instead spread outacross all other stats. For example, an item which usually gives +1Damage would instead give a small 'all stats up'.",
+        "All future stat upgrading items will now instead spread out across all other stats. For example, an item which usually gives +1 Damage would instead give a small 'all stats up'.",
         "Stats effected by this item are: Damage, Tears, Range, Speed.",
         "When taken with another item which gives an extreme value in a certain stat (e.g. Soy Milk) can lead to interesting synergies.",
         "One of the twelve zodiac items available in the game."
@@ -7179,7 +7180,7 @@
         "x2 Damage Multiplier.",
         "Tears Down by exactly half (Tear delay * 2)",
         "-0.5 Shot Speed Down.",
-        "The tears down from this item is a x2.0 multiplier after theformula, meaning it will always halve your tear rate (Unless you haveMonstro's Lung or Soy Milk)."
+        "The tears down from this item is a x2.0 multiplier after the formula, meaning it will always halve your tear rate (Unless you have Monstro's Lung or Soy Milk)."
       ],
       "itemType": "Passive",
       "itemPool": "Item Room",
@@ -7324,7 +7325,7 @@
       "effects": [
         "Tears are now charged up and fired rapidly in a burst of up to 4 shots at once.",
         "The amount of tears fired in the charge depends on how long you charge for.",
-        "The eye has three states, white (not firing), black (firstsecond of charging) and blinking between black and white. If you get hit while Cursed eye is a solid black colour you are guaranteed to beteleported to another random room on the floor. If you get hit in either of the other 2 states you will not be teleported."
+        "The eye has three states, white (not firing), black (first second of charging) and blinking between black and white. If you get hit  while Cursed eye is a solid black colour you are guaranteed to be teleported to another random room on the floor. If you get hit in either  of the other 2 states you will not be teleported."
       ],
       "itemType": "Passive, Tear Modifier",
       "itemPool": "Item Room, Secret Room",
@@ -7411,7 +7412,7 @@
       "title": "???'s Only Friend",
       "pickup": "\"Controlled friend\"",
       "effects": [
-        "A familiar fly that can be moved around via use of the arrowkeys dealing 2.5 contact damage per tick, similar to the LudovicoTechnique's mechanic.",
+        "A familiar fly that can be moved around via use of the arrow keys dealing 2.5 contact damage per tick, similar to the Ludovico Technique's mechanic.",
         "Picking up this item as well as 2 other fly-type items will allow you to transform into Lord of the Flies."
       ],
       "itemType": "Passive, Familiar",
@@ -7437,7 +7438,7 @@
       "effects": [
         "An iron ball and chain attached to Isaac, similar to Guppy's Hairball that you can fling around to deal 5 damage per tick.",
         "The ball will block enemy shots and can also destroy environmental objects such as rocks, mushrooms and skulls.",
-        "Does not decrease your movement speed stat at all however theball has to be dragged around causing Isaac to slow down slightly whenthe chain is fully extended."
+        "Does not decrease your movement speed stat at all however the ball has to be dragged around causing Isaac to slow down slightly when the chain is fully extended."
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "Item Room, Secret Room",
@@ -7502,8 +7503,8 @@
       "title": "Undefined",
       "pickup": "\"Undefined\"",
       "effects": [
-        "Upon use, teleports you to one of the following rooms atrandom: Item room, Secret room, Super secret room, the I AM ERROR roomor the Black Market (very low chance).",
-        "Allows you to loop through the final floor infinitely. If youcan get Undefined to teleport you to an I AM ERROR room, there will be a beam of light that takes you back to a new Chest/Dark Room floor withthe same layout and refreshed rooms."
+        "Upon use, teleports you to one of the following rooms at random: Item room, Secret room, Super secret room, the I AM ERROR room or the Black Market (very low chance).",
+        "Allows you to loop through the final floor infinitely. If you can get Undefined to teleport you to an I AM ERROR room, there will be a  beam of light that takes you back to a new Chest/Dark Room floor with the same layout and refreshed rooms."
       ],
       "itemType": "Active",
       "itemPool": "Item Room",
@@ -7525,7 +7526,7 @@
       "title": "Scissors",
       "pickup": "\"Lose your head\"",
       "effects": [
-        "Similar to the Pinking Shears, when used will cut your headfrom your body, however this item allows you to control Isaac's body.",
+        "Similar to the Pinking Shears, when used will cut your head from your body, however this item allows you to control Isaac's body.",
         "Isaac's detached head will remain stationary and shoot tears in the direction you are firing."
       ],
       "itemType": "Active",
@@ -7546,7 +7547,7 @@
       "title": "Breath of Life",
       "pickup": "\"Invincibility at a cost\"",
       "effects": [
-        "While you hold the spacebar down with this item, it willde-charge gradually and when the charge bar gets to zero it will grantyou a brief period of invincibility.",
+        "While you hold the spacebar down with this item, it will de-charge gradually and when the charge bar gets to zero it will grant you a brief period of invincibility.",
         "If the spacebar is held for too long (about 1 second) when it has no charge, you will take damage."
       ],
       "itemType": "Active",
@@ -7741,7 +7742,7 @@
         "The three heart containers are pre-filled with red hearts."
       ],
       "itemType": "Passive",
-      "itemPool": "Item Room, Angel Room, red, triangle, white",
+      "itemPool": "Item Room, Angel Room",
       "tags": [
         "angel room pool",
         "god room pool",
@@ -7834,7 +7835,7 @@
         "A blue boomerang which can be thrown in a similar fashion to Mom's Knife, to stun any enemies it hits and deal damage.",
         "The damage dealt by the Boomerang is equal to double your tear damage.",
         "The boomerang can also be used to grab pickups and consumables from a distance, similar to the legend of zelda boomerang.",
-        "The range of the boomerang is affected by range, with numberone the distance is very short and makes the item a lot less effective.",
+        "The range of the boomerang is affected by range, with number one the distance is very short and makes the item a lot less effective.",
         "The Boomerang can be used to kill shopkeeper corpses, allowing you to farm their drops for coins, items, Steam Sale etc."
       ],
       "itemType": "Active",
@@ -7880,7 +7881,7 @@
       "pickup": "\"Speed up + size down\"",
       "effects": [
         "+0.3 Speed Up.",
-        "Player Size Down.",
+        "Decreases the size of your player sprite, but doesn't decrease the hitbox.",
         "Gives you a random pill when picked up.",
         "An item only found in the boss room pool."
       ],
@@ -8923,7 +8924,8 @@
       "title": "Betrayal",
       "pickup": "\"Turn your enemy\"",
       "effects": [
-        "Every time Isaac takes damage, a charm effect is applied to every enemy in the room, causing them to attack each other rather than Isaac."
+        "Every time Isaac takes damage, a charm effect is applied to every enemy in the room, causing them to attack each other rather than Isaac.",
+        "The effect will not trigger if there are less than 2 enemies in the room."
       ],
       "itemType": "Passive",
       "itemPool": "Item Room, Greed Mode Item Room, Devil Room, Greed Mode Devil Room",
@@ -9585,8 +9587,7 @@
       "pickup": "\"Turn back time\"",
       "effects": [
         "When used, this item will rewind time and put you back in the previous room, in the same state you were in at that moment.",
-        "This means any damage taken or consumables used in the current room will be reset back to the previous state.",
-        "Turns into the regular Hour Glass item after being used 5 times"
+        "This means any damage taken or consumables used in the current room will be reset back to the previous state."
       ],
       "itemType": "Active",
       "itemPool": "Item Room, Shop",
@@ -9845,7 +9846,7 @@
       "pickup": "\"Dont cry over it...\"",
       "effects": [
         "Gives Isaac a familiar glass of milk that follows him and spills on the floor upon taking damage.",
-        "After being spilt, the milk gives you a Tears Up for the rest of the room."
+        "After being spilt, the milk gives you a -2 Tear Delay (Tears up) for the rest of the room."
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "Item Room, Greed Mode Item Room",
@@ -9993,7 +9994,7 @@
       "pickup": "\"Trick or treat?\"",
       "effects": [
         "Gives you a random chance to fire a razor blade which deals 400% damage instead of your normal tears",
-        "+0.4 Tears Up.",
+        "+0.3 Tears Up.",
         "This item also turns your tears red, but does not change your actual damage stat or the damage your normal tears do",
         "The chance to fire a razor blade depends on your luck stat, and at +14 luck you will fire a razor blade every time"
       ],
@@ -10429,7 +10430,7 @@
       "title": "Analog Stick",
       "pickup": "\"360 tears!\"",
       "effects": [
-        "+0.4 Tears Up",
+        "+0.3 Tears Up",
         "Allows you to fire tears diagonally by holding down two of the fire buttons at once",
         "If you are using a gamepad, this item allows you to fire in any direction"
       ],
@@ -10607,7 +10608,7 @@
       "effects": [
         "Gives you a Tonsil familiar, which follows Isaac and blocks enemy projectiles",
         "Does not deal contact damage to enemies",
-        "The Tonsil familiar counts as a passive item but does not appear in any item pools, meaning the only ways to find it and make it appear in your Items Collection page are a) hold the Tonsil trinket and trigger the effect, or b) start with it randomly as Eden"
+        "The Tonsil familiar counts as a passive item but does not appear in any item pools, meaning the only ways to find it and make it appear in your Items Collection page are a) hold the Tonsil trinket and trigger the effect, or b) start with  it randomly as Eden"
       ],
       "itemType": "Passive, Familiar",
       "itemPool": "None",
@@ -10628,7 +10629,7 @@
         "This is a single use active item, meaning it is destroyed after using it",
         "Does not kill both phases of multi-phase bosses like Hush or Ultra Greed",
         "If used to kill a boss, the kill still counts as a victory for post-it note completion marks, but the run will still get a game over.",
-        "Delirium's death animation takes longer than 3 seconds, meaning you will die before it can count as a completion mark. One exception to this is if you are playing as Lazarus or have Lazarus' Rags - you will respawn in the same room and get the kill."
+        "Delirium's death animation takes longer than 3 seconds, meaning you will die before it can count as a completion mark. One exception to this is if you are playing as Lazarus or have Lazarus' Rags - you will respawn in the same room and get  the kill."
       ],
       "itemType": "Active",
       "itemPool": "Shop, Devil Room, Curse Room, Red Chest, Demon Beggar",
@@ -10785,9 +10786,9 @@
       "title": "Clicker",
       "pickup": "\"Change\"",
       "effects": [
-        "When used, this item will randomly change you into another character and remove one of your current passive items",
+        "When used, this item will randomly change you into another character and remove the last item you picked up",
         "All stat changes of the new character are applied (e.g. character damage multipliers)",
-        "This item can only reduce your heart containers and will not increase them if you change back into a character with more health. This means if you roll into The Lost, changing back to another character will leave you with only 1/2 of a soul heart",
+        "This item can only reduce your heart containers and will not increase them if you change back into a character with more health. This means if you roll into The Lost, changing back to another character will leave you with only 1/2 of a soul  heart",
         "Cannot turn you into a character that isn't unlocked yet",
         "Also includes Lazarus II (Lazarus' revived form) and Black Judas (effect of Judas' Shadow)",
         "It's also possible that this item will pick the same character, making it seem like nothing happened"
@@ -10965,7 +10966,7 @@
       "pickup": "\"...\"",
       "effects": [
         "A one time use active item that when used, will spawn 2 random item pedestals from the item pool associated with the current room (e.g. in an Angel room, this will spawn 2 Angel room items)",
-        "Starts with charge that is on your current spacebar item and requires 12 charges to use"
+        "Starts with 0 charge and requires 12 charges to use"
       ],
       "itemType": "Active",
       "itemPool": "Angel Room",
@@ -11851,8 +11852,8 @@
       "effects": [
         "With Haemolacria, Isaac's tears become bloody and now fire by in the air in an arc.",
         "Upon hitting the floor, an obstacle or enemy, the bloody tear will burst and fire lots of smaller tears at random directions around the impact point",
-        "Tears Down",
-        "Your damage stat is unaffected by this item, however the large bloody tear does roughly +30% of your tear damage and the smaller scattering tears deal 50-75% of your tear damage.",
+        "Tears Down (-25 Tear Delay)",
+        "Your damage stat is unaffected by this item, however the large bloody tear does +31% of your tear damage and the smaller scattering tears deal 50-80% of your tear damage.",
         "Added as part of the Afterbirth+ Booster Pack #4. Based on the Steam Workshop mod (originally called Water Balloon) created by HiHowAreYou."
       ],
       "itemType": "Passive",
@@ -11919,6 +11920,318 @@
         ","
       ],
       "_cssClass": "ap-itm534",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 535,
+      "title": "Blanket",
+      "pickup": "\"You feel safe\"",
+      "effects": [
+        "+1 Soul Heart",
+        "Grants you a shield when entering the Boss Room, which prevents damage from 1 hit, then disappears",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm535",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 536,
+      "title": "Sacrificial Altar",
+      "pickup": "\"He demands a sacrifice\"",
+      "effects": [
+        "When used, this item will sacrifice up to 2 of your familiars, and spawn a random Devil Room item for each familar sacrificed this way",
+        "If used while you have no familiar, this item will do nothing and won't consume the item",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Active",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm536",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 537,
+      "title": "Lil Spewer",
+      "pickup": "\"Puking buddy\"",
+      "effects": [
+        "A familiar with a charged attack, that spawns a line of creep on the floor which damages enemies that walk over it",
+        "Spawns 1 random pill when picked up",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm537",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 538,
+      "title": "Marbles",
+      "pickup": "\"Choking hazard\"",
+      "effects": [
+        "Spawns 3 random trinkets when picked up",
+        "Upon taking damage, you have a random chance to 'gulp' one of your currently held trinkets, causing it to disappear",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm538",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 539,
+      "title": "Mystery Egg",
+      "pickup": "\"Sacrificial insemination\"",
+      "effects": [
+        "A familiar which follows Isaac and, upon taking damage, will spawn a charmed enemy that will fight for you",
+        "When the charmed enemy is spawned the egg will crack, but regenerate in the next room",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm539",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 540,
+      "title": "Flat Stone",
+      "pickup": "\"Skipping tears\"",
+      "effects": [
+        "Flat Stone causes your tears to bounce across the room",
+        "Tears which bounce and then hit an enemy will cause splash damage to nearby enemies for 25% of your tear damage",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm540",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 541,
+      "title": "Marrow",
+      "pickup": "\"HP up?\"",
+      "effects": [
+        "+1 Bone Heart",
+        "Spawns 3 red hearts on the ground when picked up",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm541",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 542,
+      "title": "Slipped Rib",
+      "pickup": "\"Projectile shield\"",
+      "effects": [
+        "This item gives you an orbital, which will reflect projectiles back at enemies",
+        "Unlike some other orbitals, Slipped Rib doesn't deal contact damage to enemies",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm542",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 543,
+      "title": "Hallowed Ground",
+      "pickup": "\"Portable sanctuary\"",
+      "effects": [
+        "A familiar which follows Isaac and spawns a white poop when you take damage",
+        "The white poop gives an aura that cuts your tear delay in half (Tears up) and has a chance to block damage",
+        "The aura disappears if the poop is destroyed",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm543",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 544,
+      "title": "Pointy Rib",
+      "pickup": "\"Stabbing time\"",
+      "effects": [
+        "A familiar that follows Isaac and sways back and forth similar to the Finger item, dealing contact damage to enemies equal to your tear damage",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm544",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 545,
+      "title": "Book of the Dead",
+      "pickup": "\"Rise from the grave\"",
+      "effects": [
+        "When used, this item will spawn a bone orbital or charmed Bony for each enemy killed in the current room.",
+        "The effect only lasts for the remainder of the room",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Active",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm545",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 546,
+      "title": "Dad's Ring",
+      "pickup": "\"Father's blessing\"",
+      "effects": [
+        "A passive item that puts a yellow ring around Isaac. Enemies are frozen in place while touching the yellow ring",
+        "Enemies touching the ring will stay frozen until you move away",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm546",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 547,
+      "title": "Divorce Papers",
+      "pickup": "\"Tears up + you feel empty\"",
+      "effects": [
+        "+1 Bone Heart",
+        "+0.7 Tears Up",
+        "When you pick this item up, the Mysterious Paper trinket is spawned on the ground",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm547",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 548,
+      "title": "Jaw Bone",
+      "pickup": "\"Fetch\"",
+      "effects": [
+        "A familiar that flies across the room every few seconds while firing and damages enemies (2x your tear damage)",
+        "Can also be used like the Boomerang to pick up consumables on the ground",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm548",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 549,
+      "title": "Brittle Bones",
+      "pickup": "\"Everything hurts\"",
+      "effects": [
+        "When picked up, this item replaces all of your red heart containers with 6 Bone Hearts",
+        "Every time you lose a bone heart, lots of bones fire in all directions damaging any enemies hit",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm549",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 550,
+      "title": "Broken Shovel",
+      "pickup": "\"It feels cursed\"",
+      "effects": [
+        "Obtained by beating the Basement 1 boss within 1 minute, then bombing the shadow that appears in the middle of the starting room",
+        "While held, Mom's Foot will constantly stomp you down from above.",
+        "Using the Broken Shovel will stop Mom stomping you for the rest of the current room (or current wave if you're in the boss rush or challenge room).",
+        "Beating the Boss Rush while holding this item will drop the second half of the Broken Shovel, which combine to create Mom's Shovel, which is used to unlock The Forgotten character",
+        "Droping the Broken Shovel will cause it to disappear if you leave the room",
+        "NOTE: This item will not drop unless you have beaten The Lamb at least once",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Active",
+      "itemPool": "Recharge time: 4 rooms",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm550",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 551,
+      "title": "Broken Shovel",
+      "pickup": "\"Lost but not forgotten\"",
+      "effects": [
+        "Drops after beating the Boss Rush while holding the other half of the Broken Shovel (see previous item for more details)",
+        "Used in the Booster Pack #5 quest to unlock The Forgotten character",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Passive",
+      "itemPool": "Type: Passive",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm551",
+      "category": "BOOSTER_ITEM"
+    },
+    {
+      "itemID": 552,
+      "title": "Mom's Shovel",
+      "pickup": "\"Lost but not forgotten\"",
+      "effects": [
+        "When used, spawns a trapdoor to the next floor",
+        "Unlocks The Forgotten character when used on a mound of dirt that appears in The Dark Room",
+        "Obtained by combining the two Broken Shovel pieces. The first piece drops by beating the first floor boss within 1 minute then bombing the shadow in the first room. The second piece drops after beating the Boss Rush as long as you are holding the first Broken Shovel piece.",
+        "Added as part of the Afterbirth+ Booster Pack #5."
+      ],
+      "itemType": "Active",
+      "itemPool": "Recharge time: 4 rooms",
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-itm552",
       "category": "BOOSTER_ITEM"
     },
     {
@@ -12280,7 +12593,7 @@
         "When Daemon's Tail is held, most future Heart drop will be rerolled into something else, with a certain chance to be rerolled into a Black Heart.",
         "Every type of heart will be affected (except for hearts spawned in Super Secret Rooms) and causes Mitre, Bible Tract, Mom's Pearl to become useless.",
         "Upon entering a new room that already has hearts on the ground, they will all be converted into Black Hearts.",
-        "Hearts that spawn after clearing a room, opening a chest or playing a slot machine/beggar will be re-rolled into another possible pickup that could appear. This essentially means you are sacrificing your heart drops for a higher chance of all other pickups"
+        "Hearts that spawn after clearing a room, opening a chest or playing a slot machine/beggar will be re-rolled into another possible pickup that could appear. This essentially means you are sacrificing your heart drops for a higher chance of  all other pickups"
       ],
       "tags": [
         "black",
@@ -12376,7 +12689,7 @@
       "title": "Broken Ankh",
       "pickup": "\"Eternal life?\"",
       "effects": [
-        "Has a chance (roughly 20%) to respawn with 3 Soul hearts as Blue Baby when you die."
+        "Has a 22.22% chance to respawn with 3 Soul hearts as Blue Baby when you die."
       ],
       "tags": [
         "ank",
@@ -12776,7 +13089,7 @@
       "pickup": "\"Well, that's not coming off\"",
       "effects": [
         "When you enter a boss room, immediately remove 15% health from the boss and restore 1 red heart.",
-        "This trinket can only be removed by using the Smelter item (Afterbirth+ DLC only) or picking up the Match Stick trinket, meaning you are otherwise unable to take any more trinkets unless you get another item which allows you to hold a second trinket (e.g. Mom's Purse)."
+        "This trinket can only be removed by using the Smelter item (Afterbirth+ DLC only) or picking up the Match Stick trinket, meaning you are otherwise unable to take any more trinkets unless you get another item which allows you to hold a second  trinket (e.g. Mom's Purse)."
       ],
       "tags": [
         "insect",
@@ -13449,8 +13762,8 @@
       "title": "Cracked Crown",
       "pickup": "\"Boost Stats\"",
       "effects": [
-        "Gives you extra stat upgrades based on the items you've already collected that have stat increases, at roughly +30% of the item's original increase",
-        "Also gives you a tears up if you don't already have an item that increases your tears stat"
+        "Gives you extra stat upgrades based on the items you've already collected that have stat increases, at +33% of the item's original increase",
+        "Also gives you a +0.2 Tears Up and -1 Tear Delay even if you don't have an item that increases your tears stat"
       ],
       "tags": [
         "broken",
@@ -14032,6 +14345,48 @@
         ","
       ],
       "_cssClass": "ap-junxx125",
+      "category": "BOOSTER_TRINKET"
+    },
+    {
+      "trinketID": "126",
+      "title": "Rotten Penny",
+      "pickup": "\"Wealth of flies\"",
+      "effects": [
+        "While held, spawns +1 friendly blue fly every time you pick up a coin.",
+        "Added as part of the Afterbirth+ Booster Pack #5"
+      ],
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-junxx126",
+      "category": "BOOSTER_TRINKET"
+    },
+    {
+      "trinketID": "127",
+      "title": "Baby-Bender",
+      "pickup": "\"Feed them magic!\"",
+      "effects": [
+        "While held this trinket gives your familiars homing shots.",
+        "Added as part of the Afterbirth+ Booster Pack #5"
+      ],
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-junxx127",
+      "category": "BOOSTER_TRINKET"
+    },
+    {
+      "trinketID": "128",
+      "title": "Finger Bone",
+      "pickup": "\"It looks brittle\"",
+      "effects": [
+        "While held, gives you a small chance to gain a bone heart everytime you take damage.",
+        "Added as part of the Afterbirth+ Booster Pack #5"
+      ],
+      "tags": [
+        ","
+      ],
+      "_cssClass": "ap-junxx128",
       "category": "BOOSTER_TRINKET"
     },
     {
