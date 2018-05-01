@@ -33,10 +33,13 @@ The items for the game are added to the catalog. Simply searching by their name 
 
 ## Change Log
 
-### v1.0
+### v1.0.1
+
+* Add Booster Pack #5
+
+### v1.0.0
 
 * Initial release. Lists all the items as of 07-04-2018.
-
 
 ## License
 
